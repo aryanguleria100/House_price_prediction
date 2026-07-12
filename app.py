@@ -283,9 +283,9 @@ elif page == "🏡 Prediction":
     st.header("🏡 House Price Prediction")
 
     # Load Model
-    model = joblib.load("models/best_model.pkl")
-    scaler = joblib.load("models/scaler.pkl")
-    encoder = joblib.load("models/encoder.pkl")
+    model = joblib.load("Models/best_model.pkl")
+    scaler = joblib.load("Models/scaler.pkl")
+    encoder = joblib.load("Models/encoder.pkl")
 
 
     house_id = st.number_input(
